@@ -1,0 +1,16 @@
+.normalLink {
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+}
+.activeLink {
+  color: rgb(16, 16, 16);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.activeLink ::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+}
