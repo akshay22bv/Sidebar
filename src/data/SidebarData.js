@@ -1,50 +1,60 @@
 import * as FaIcons from "react-icons/fa";
+import Angular from "../pages/Angular";
+import Css from "../pages/Css";
+import Figma from "../pages/Figma";
+import Git from "../pages/Git";
+import Home from "../pages/Home";
+import Java from "../pages/Java";
+import Node from "../pages/Node";
+import PageReact from "../pages/PageReact";
+import Php from "../pages/Php";
 
 export const SidebarData = [
   {
     title: "Home",
     path: "/",
-    // icon: <FaIcons.FaHome />,
+    element: <Home />,
   },
   {
     title: "Git",
     path: "/git",
+    element: <Git />,
     // icon: <FaIcons.FaGit />,
   },
   {
     title: "CSS",
     path: "/css",
-    // icon: <FaIcons.FaCss3Alt />,
+    element: <Css />,
   },
   {
     title: "Php",
     path: "/php",
-    // icon: <FaIcons.FaPhp />,
+    element: <Php />,
   },
   {
     title: "Java",
     path: "/java",
-    // icon: <FaIcons.FaJava />,
+    element: <Java />,
   },
 
   {
     title: "Node",
     path: "/node",
-    // icon: <FaIcons.FaNodeJs />,
+    element: <Node />,
   },
   {
     title: "Figma",
     path: "/figma",
-    // icon: <FaIcons.FaFigma />,
+    element: <Figma />,
   },
   {
     title: "Angular",
     path: "/angular",
-    // icon: <FaIcons.FaAngular />,
+    element: <Angular />,
   },
   {
     title: "React",
     path: "/react",
-    // icon: <FaIcons. FaReact />,
+    element: <PageReact />,
   },
 ];
